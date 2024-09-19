@@ -1,0 +1,30 @@
+# Homework 4
+
+## Task 1: Conceptual Questions
+
+1.  If your working directory is myfolder/homework/, what relative path would you specify to get the file located at myfolder/MyData.csv?
+
+    1.  c:\Users\Documents\myfolder\Mydata.csv
+
+2.  What are the major benefits of using R projects?
+
+    1.  Consolidation of your data and data manipulations into one working directory.
+
+3.  What is git and what is github?
+
+    1.  Github is the application to use Git
+
+    2.  Git is the version control system
+
+4.  What are the two main differences between a tibble and a data.frame?
+
+    1.  A tibble prints in an easy to read format
+
+    2.  Tidyverse functions are built for tibbles
+
+5.  Rewrite the following nested function call using BaseR’s chaining operator:
+
+```{r}
+iris2<-iris %>% 
+  subset(Petal.Length < 1.55, select = c(grepl("^Petal", names(iris)), Species))
+```

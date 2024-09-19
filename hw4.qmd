@@ -2,6 +2,12 @@
 
 ## Task 1: Conceptual Questions
 
+```{r}
+library(dplyr)
+library(readr)
+library(readxl)
+```
+
 1.  If your working directory is myfolder/homework/, what relative path would you specify to get the file located at myfolder/MyData.csv?
 
     1.  c:\\Users\\Documents\\myfolder\\Mydata.csv
